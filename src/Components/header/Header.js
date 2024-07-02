@@ -3,7 +3,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap'
 
 
 export default function Header() {
-  const [isLogin , setIsLogin ] = useState(false)
+  const [isLogin  ] = useState(false)
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
